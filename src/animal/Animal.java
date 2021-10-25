@@ -8,13 +8,7 @@ public abstract class Animal {
         System.out.println("I'm eating");
     }
 
-    public void voice() {
-        if (!sleep) {
-            System.out.println("voice");
-        } else {
-            System.out.println();
-        }
-    }
+    public abstract void voice();
 
     public void toSleep() {
         this.sleep = true;
