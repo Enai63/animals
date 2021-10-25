@@ -2,7 +2,7 @@ package animal;
 
 public class Main {
     public static void main(String[] args) {
-        Cat cat = new Cat("Murzik", 1, "British");
+        Cat cat = new Cat();
         cat.eating();
         cat.voice();
         cat.toSleep();
@@ -10,7 +10,7 @@ public class Main {
 
 
 
-        Dog dog = new Dog("Bublik", 2, "German Shepherd");
+        Dog dog = new Dog();
         dog.voice();
         dog.toSleep();
         dog.voice();
@@ -19,7 +19,7 @@ public class Main {
 
 
         
-        Rabbit rabbit = new Rabbit("Shpik", 1, "Alyaska");
+        Rabbit rabbit = new Rabbit();
         rabbit.voice();
         rabbit.eating();
         rabbit.toSleep();

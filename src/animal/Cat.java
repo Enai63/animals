@@ -2,12 +2,7 @@ package animal;
 
 public class Cat extends Animal {
     private static final String phrase = "I'm eating cat food";
-    private String breed;
 
-    public Cat(String name, Integer age, String breed) {
-        super(name, age);
-        this.breed = breed;
-    }
 
     @Override
     public void eating() {
@@ -23,16 +18,8 @@ public class Cat extends Animal {
     public void voice() {
         if (!sleep) {
             System.out.println("Meow meow");
-        }  else {
-        System.out.println();
-    }
-    }
-
-    public String getBreed() {
-        return breed;
-    }
-
-    public void setBreed(String breed) {
-        this.breed = breed;
+        } else {
+            System.out.println();
+        }
     }
 }

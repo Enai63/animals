@@ -2,12 +2,8 @@ package animal;
 
 public class Dog extends Animal{
     private static final String phrase = "I'm eating dog food";
-    private String breed;
 
-    public Dog(String name, Integer age, String breed) {
-        super(name, age);
-        this.breed = breed;
-    }
+
 
     @Override
     public void eating() {
@@ -28,11 +24,4 @@ public class Dog extends Animal{
         super.toSleep();
     }
 
-    public String getBreed() {
-        return breed;
-    }
-
-    public void setBreed(String breed) {
-        this.breed = breed;
-    }
 }
